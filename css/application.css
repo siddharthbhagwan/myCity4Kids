@@ -1,0 +1,85 @@
+body {
+	font-size: 15px;
+}
+
+.tablet {
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 20px;
+}
+
+.tagline-outer {
+	display: table;
+	height: 400px;
+}
+
+.tagline-inner {
+	font-size: 30px;
+	padding-left: 10px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+}
+
+.featured-outer {
+	background-color: #F5F5F5;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	height: 400px;
+	display: table;
+}
+
+.featured-inner {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 25px;
+}
+
+.tablet-last {
+	border-left: 1px solid #DDDDDD;
+	border-bottom: none;
+}
+
+.footer {
+	border-top: 1px solid #DDDDDD;
+	margin-top: 30px;
+	padding-top: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.main {
+	min-height: 530px;
+}
+
+.header {
+	min-height: 100px;
+}
+
+.fa {
+	margin-right: 2px;
+	margin-left: 10px;
+}
+
+.social-links, .mobile-links {
+	font-size: 17px;
+}
+
+/* Over Riding Bootstrap defaults */
+
+.navbar {
+	background-color: white !important;
+}
+
+.search-bar {
+	border-radius: 20px !important;
+}
