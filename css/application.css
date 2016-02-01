@@ -70,8 +70,12 @@ ul {
 	margin-left: 10px;
 }
 
-.social-links, .mobile-links {
+.social-links {
 	font-size: 17px;
+}
+
+.mobile-links {
+	font-size: 19px;
 }
 
 /* Over Riding Bootstrap defaults */
